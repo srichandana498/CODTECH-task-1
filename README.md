@@ -1,7 +1,11 @@
 Name: Srichandana
+
 Company: CODTECH IT SOLUTIONS
+
 ID: CT08DS8161
+
 Domain: Front-End Development
+
 Duration: September 25th, 2024 to October 25th, 2024
 
 OVERVIEW OF THE PROJECT
