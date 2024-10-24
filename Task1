@@ -1,140 +1,26 @@
 /*This is the html code*/
 
-
-<section id="profile">
-    <div class="profile-container">
-        <div class="profile-text">
-            <h1>I'm Srichandana</h1>
-            <p>Passionate developer focused on web applications. With a strong foundation in JavaScript and a keen interest in front-end development, I enjoy creating engaging user experiences.</p>
-            <button>Learn More</button>
-        </div>
-        <div class="profile-image">
-            <img src="C:\Users\91789\Downloads\WhatsApp Image 2024-10-18 at 10.46.50 AM.jpeg" alt="Profile Picture">
-        </div>
-    </div>
-</section>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Srichandana Velagapudi - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        .contact {
-            margin-bottom: 20px;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .skills, .achievements {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li, .achievements li {
-            margin: 5px 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Interactive Quiz</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Hi! I'm Srichandana, a passionate developer focused on web applications. With a strong foundation in JavaScript and a keen interest in front-end development, I enjoy creating engaging user experiences.</p>
-    </section>
-    <section id="experience">
-        <h1>Experience</h1>
-        <ul>
-            <li><strong>Intern</strong> at Codtech Solutions (2024)
-                <p>Made projects like the Quiz Application and Personal Portfolio, gaining valuable industry experience.</p>
-            </li>
-        </ul>
-    </section>
-    <section id="skills">
-        <h1>Skills</h1>
-        <ul>
-            <li>Python Programming</li>
-            <li>Object-Oriented Programming (OOP)</li>
-            <li>Public Speaking</li>
-            <li>Pandas</li>
-            <li>NumPy</li>
-            <li>Strategic Communication</li>
-            <li>SQL</li>
-            <li>SOLIDWORKS</li>
-            <li>Community Service</li>
-            <li>AutoCAD</li>
-        </ul>
-    </section>
-    <section id="education">
-        <h1>Education</h1>
-        <ul>
-            <li><strong>School</strong>: Prerana Waldorf School (2011 - 2023)</li>
-            <li><strong>Bachelor of Technology (B.Tech) in Information Technology</strong>, Chaitanya Bharathi Institute of Technology (2023 - 2027)</li>
-        </ul>
-    </section>
-    <section id="achievements">
-        <h1>Achievements & Awards</h1>
-        <ul>
-            <li>Completed 8K Run (2023)</li>
-            <li>Won First Place in Annual Tennis Competition (2023)</li>
-            <li>Won First Place in Throwball Competition in School (2023)</li>
-            <li>Recipient of the Student Leadership Award (2023)</li>
-            <li>Participated in the Annual School Talent Show (2022)</li>
-            <li>Awarded for Community Service and Volunteering (2020)</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h1>Projects</h1>
-        <ul>
-            <li><a href="quiz.html">Interactive Quiz Application</a></li>
-            <li><a href="weather.html">Weather Dashboard</a></li>
-            <li><a href="new-project.html">Personal Portfolio</a></li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <p>Email: <a href="mailto:srichandanav12@gmail.com">srichandanav12@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/srichandanavelagapudi">Srichandana Velagapudi</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Srichandana's Portfolio</p>
-    </footer>
+    <div class="quiz-container" id="quiz-container">
+        <h1>Interactive Quiz</h1>
+        <img src="" alt="Question Image" class="question-image" id="question-image">
+        <div id="question">Question will appear here</div>
+        <div id="choices-container"></div>
+        <button class="btn" id="next-button" onclick="nextQuestion()">Next</button>
+        <div class="result" id="result" style="display: none;">You scored 0 out of 3!</div>
+    </div>
+
+    <script src="quiz.js"></script>
 </body>
-</html>  
+</html>
+
+
+
